@@ -1,0 +1,13 @@
+#What .container .items .item{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+}
+#What .container .items .item i{
+    align-self: center;
+    margin-right: 0.75rem;
+}
+
+#contact-map #map{
+    flex: 2;
+}

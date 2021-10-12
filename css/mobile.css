@@ -1,0 +1,51 @@
+#What .container .items{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#What .container .items .item{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+}
+#What .container .items .item i{
+    align-self: center;
+    margin-right: 0.75rem;
+}
+
+@media(max-width:500px){
+    #nav-bar{
+        align-items: center;
+        flex-direction: column;
+    }
+    #nav-bar .logo{
+        margin-bottom: 1rem;
+    }
+    #showcase .showcase-container{
+        top: 94px
+    }
+    #showcase .showcase-container .l-heading{
+        font-size: 3rem;
+    }
+    #who .who-img{
+        display: none;
+    }
+     #contact-map{
+        flex-direction: column;
+    }
+    #contact-map #map{
+        flex: none;
+        height: 400px;
+      
+    }
+  
+
+} 
+  #client .client-imgs img{
+        width: 27%;
+        padding: 0 1rem;
+    }
+    #client .client-imgs img:last-child{
+        display: none;
+    }
+   
